@@ -1,6 +1,6 @@
 title: Team Hollow
 description: >-
-  Description
+    Description
 
 twitter: hollowdev
 github:  teamhollow
@@ -8,10 +8,19 @@ github:  teamhollow
 # Build settings
 theme: minima
 plugins:
-  - jekyll-feed
+    - jekyll-feed
 
 # Collections
 collections:
-  articles:
-    output: true
-    permalink: /article/:path
+    articles:
+        output: true
+        permalink: /article/:path
+    pages:
+        output: true
+        permalink: /:path
+
+# Minima Config
+minima:
+    social_links:
+        twitter: hollowdev
+        github:  teamhollow

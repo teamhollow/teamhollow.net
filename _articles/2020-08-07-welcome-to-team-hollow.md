@@ -1,13 +1,13 @@
 ---
-layout: post
-title:  "Welcome to Jekyll!"
+layout: article
+title:  "Welcome to Team Hollow!"
 date:   2020-08-07 09:53:43 +0100
-categories: jekyll update
+categories: general update
 ---
 
-You’ll find this post in your `_articles` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+You’ll find this article in your `_articles` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
-Jekyll requires blog post files to be named according to the following format:
+Jekyll requires blog article files to be named according to the following format:
 
 `YEAR-MONTH-DAY-title.MARKUP`
 
