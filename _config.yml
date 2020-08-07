@@ -18,6 +18,9 @@ collections:
     pages:
         output: true
         permalink: /:path
+    redirects:
+        output: true
+        permalink: /:path
 
 # Minima Config
 minima:

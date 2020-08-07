@@ -1,0 +1,16 @@
+---
+layout: default
+---
+
+<p style='font-size: 40px; line-height: 1.3em; text-align: center;'>Redirecting to <a href='{{ page.new_url }}'>{% if page.display %}{{ page.display }}{% else %}{{ page.new_url }}{% endif %}</a></p>
+
+<script>
+    var newURL = '{{ page.new_url }}';
+    if (!newURL.startsWith('http')) newURL = '{{ site.url }}/' + newURL;
+
+    document.addEventListener('DOMContentLoaded', (event) => {
+        window.location.href = newURL;
+        window.location.replace = newURL;
+        window.location.refresh();
+    });
+</script>
