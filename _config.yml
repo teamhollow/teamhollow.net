@@ -24,6 +24,7 @@ collections:
 
 # Minima Config
 minima:
+    skin: dark
     social_links:
         twitter: hollowdev
         github:  teamhollow
