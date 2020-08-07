@@ -1,0 +1,17 @@
+title: Team Hollow
+description: >-
+  Description
+
+twitter: hollowdev
+github:  teamhollow
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+
+# Collections
+collections:
+  articles:
+    output: true
+    permalink: /article/:path
