@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+<html lang="en">
 
-{%- include head.html -%}
+{% include head.html %}
 
 <body>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        {%- seo -%}
-        <!-- <link rel="stylesheet" href="{{ "/assets/css/style.css" | relative_url }}"> -->
-        {%- feed_meta -%}
-        {%- if jekyll.environment == 'production' and site.google_analytics -%}
-            {%- include google-analytics.html -%}
-        {%- endif -%}
-    </head>
 
-    {%- include header.html -%}
+  {% if site.google-analytics %}
+    {% include google-analytics.html %}
+  {% endif %}
+  
+  {% include header.html %}
 
-    <main class="page-content" aria-label="Content">
-        <div class="wrapper">
-            {{ content }}
-        </div>
-    </main>
+  {{ content }}
+  
+  {%- comment -%} {% include footer.html %} {%- endcomment -%}
 
-    {%- include footer.html -%}
+  <!-- jQuery -->
+  <script src="/assets/plugins/jQuery/jquery.min.js"></script>
+  <!-- Bootstrap JS -->
+  <script src="/assets/plugins/bootstrap/bootstrap.min.js"></script>
+  <!-- slick slider -->
+  <script src="/assets/plugins/slick/slick.min.js"></script>
+  <!-- filter -->
+  <script src="/assets/plugins/shuffle/shuffle.min.js"></script>
+  <!-- anchorjs -->
+  <script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js"></script>
+  <script>
+    anchors.options.icon = '#';
+    anchors.options.visible = 'hover';
+    anchors.options.placement = 'left';
+    anchors.add('h2:not([title]), h3:not(.display-grid), h4:not(.card-title):not(.subtitle):not(.collapsible-header), h5:not(.display-grid), h6');
+  </script>
 
+  <!-- Main Script -->
+  <script src="/assets/js/script.js"></script>
 </body>
 
 </html>

@@ -1,0 +1,81 @@
+#-------------------------------
+# General Site Settings
+
+title: Team Hollow
+logo: logo.png
+
+menu:
+- {name: Home, link: '/#'}
+- {name: Projects, link: '/#projects'}
+- {name: Blog, link: '/blog'}
+- {name: Discord, link: '/discord'}
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+google-analytics: # UA-XXXXXX-X
+
+
+#-------------------------------
+# Hero Section
+
+hero:
+  hero-title: Welcome to<br>Team<br>Hollow
+
+# social:
+# - {icon: "ti-twitter", link: "hollowdev"}
+
+#-------------------------------
+# About (Section and Page)
+
+# About Section
+blurb: >-
+  Team Hollow is Minecraft Suggestion’s official Minecraft mod development team that aims to eventually develop high-quality large-scale projects that overhaul the base vanilla game!
+
+# blurb-btn-link: '/about'
+# blurb-btn-name: know more
+
+# Team Section
+team:
+  - title : "Vamacheron"
+    image : "assets/images/team/vamacheron.png"
+    role : "Director"
+  
+  - title : "Andante"
+    image : "assets/images/team/andante.png"
+    role : "Developer"
+    
+  - title : "Axσladdy"
+    image : "assets/images/team/axoladdy.png"
+    role : "Idea Generator"
+
+  - title : "Ceres"
+    image : "assets/images/team/ceres.png"
+    role : "Graphic Designer"
+
+  - title : "Duskitty"
+    image : "assets/images/team/duskitty.png"
+    role : "Developer"
+    
+  - title : "nskobelevs"
+    image : "assets/images/team/nskobelevs.png"
+    role : "Developer"
+
+  - title : "NewHorizons"
+    image : "assets/images/team/newhorizons.png"
+    role : "Developer"
+
+
+#-------------------------------
+# Projects Section
+
+projects-title: Projects
+projects:
+- {name: Left Project, color: '#fdb157', value: '0%'}
+- {name: The Roofed Canyon, color: '#9473e6', value: '40%'}
+- {name: Right Project, color: '#bdecf6', value: '0%'}

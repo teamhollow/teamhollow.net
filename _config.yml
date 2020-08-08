@@ -1,30 +1,24 @@
-title: Team Hollow
-description: >-
-    Description
-
-twitter: hollowdev
-github:  teamhollow
-
 # Build settings
-theme: minima
+markdown: kramdown
+permalink: pretty
 plugins:
-    - jekyll-feed
+  - jekyll-sitemap
 
 # Collections
 collections:
-    articles:
-        output: true
-        permalink: /article/:path
-    pages:
-        output: true
-        permalink: /:path
-    redirects:
-        output: true
-        permalink: /:path
+  redirects:
+    output: true
+    permalink: /:path/
+  pages:
+    output: true
+    permalink: /:path/
 
-# Minima Config
-minima:
-    skin: dark
-    social_links:
-        twitter: hollowdev
-        github:  teamhollow
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# Exclude from processing.
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor
