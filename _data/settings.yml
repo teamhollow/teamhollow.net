@@ -77,5 +77,5 @@ team:
 projects-title: Projects
 projects:
 - {name: Left Project, color: '#fdb157', value: '0%'}
-- {name: The Roofed Canyon, color: '#9473e6', value: '40%'}
+- {name: The Roofed Canyon, color: '#229954', value: '40%'}
 - {name: Right Project, color: '#bdecf6', value: '0%'}
