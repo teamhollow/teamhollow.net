@@ -56,6 +56,18 @@ select {
   }
 }
 
+button.download-curseforge {
+    background-color: purple;
+    color: white;
+}
+button.download-packages {
+    background-color: slategray;
+    color: white;
+
+    padding: 10px 22px;
+    font-size: 15px;
+}
+
 a.text-dark{
   &:hover{
     color: $primary-color !important;

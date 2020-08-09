@@ -6,6 +6,7 @@ logo: logo.png
 
 discord: Yqkb9N3
 twitter: hollowdev
+github-user: teamhollow
 
 menu:
 - {name: Home, link: '/#'}
@@ -80,6 +81,6 @@ team:
 
 projects-title: Projects
 projects:
-- {name: Left Project, color: '#fdb157', value: '0%'}
-- {name: The Roofed Canyon, color: '#229954', value: '40%'}
-- {name: Right Project, color: '#bdecf6', value: '0%'}
+- { name: Left Project, url: 'lefty', color: '#fdb157', value: '0%' }
+- { name: The Roofed Canyon, url: 'theroofedcanyon', color: '#229954', value: '40%' }
+- { name: Right Project, url: 'right', color: '#bdecf6', value: '0%' }
