@@ -4,10 +4,14 @@
 title: Team Hollow
 logo: logo.png
 
+discord: Yqkb9N3
+twitter: hollowdev
+
 menu:
 - {name: Home, link: '/#'}
 - {name: Projects, link: '/#projects'}
-- {name: Blog, link: '/blog'}
+- {name: The Team, link: '/#the-team'}
+- {name: Blog, link: '/#blogs'}
 - {name: Discord, link: '/discord'}
 
 #-------------------------------

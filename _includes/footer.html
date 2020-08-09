@@ -4,25 +4,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-4">
-          <h5 class="text-light">Email</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.email }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Phone</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.phone }}</p>
-        </div>
-        <div class="col-md-4">
-          <h5 class="text-light">Address</h5>
-          <p class="text-white paragraph-lg font-secondary">{{ site.data.settings.address }}</p>
+          <h5 class="text-light col-md-4-item">Discord</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="https://discord.gg/{{ site.data.settings.discord }}">discord.gg/{{ site.data.settings.discord }}</a></p>
+
+          <h5 class="text-light col-md-4-item">Twitter</h5>
+          <p class="text-white paragraph-lg font-secondary"><a href="https://twitter.com/{{ site.data.settings.twitter }}">@{{ site.data.settings.twitter }}</a></p>
         </div>
       </div>
     </div>
   </div>
   <div class="border-top text-center border-dark py-5">
-    <p class="mb-0 text-light">Copyright ©<script>
+    <a href="/"><p class="mb-0 text-light">© Team Hollow <script>
         var CurrentYear = new Date().getFullYear()
         document.write(CurrentYear)
-      </script> a theme by <a href="https://themefisher.com/">themefisher.com</a></p>
+      </script></p></a>
   </div>
 </footer>
 <!-- /footer -->
