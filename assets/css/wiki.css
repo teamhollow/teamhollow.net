@@ -1,0 +1,19 @@
+header.navigation {
+    padding: 10px 130px;
+}
+section.page-title {
+    padding: 0px 0 120px;
+}
+
+img.wiki-root {
+    width: 160px;
+    margin-bottom: 10px;
+    border-radius: 50%;
+}
+
+h1.wiki-title > .anchorjs-link {
+    color: #F88A0E;
+    opacity: 20%;
+    font-size: 0.85em;
+    cursor: default;
+}

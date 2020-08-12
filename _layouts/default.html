@@ -6,7 +6,7 @@
 <body>
 
   {% if site.google-analytics %}
-    {% include google-analytics.html %}
+    {% include google_analytics.html %}
   {% endif %}
   
   {% include header.html %}
@@ -29,7 +29,11 @@
     anchors.options.icon = '#';
     anchors.options.visible = 'hover';
     anchors.options.placement = 'left';
-    anchors.add('h2, h3, h4:not(.card-title), h5:not(.col-md-4-item), h6');
+    anchors.add('h2, h3:not([subtitle]), h4:not(.card-title), h5:not(.col-md-4-item), h6');
+
+    anchors.options.icon = '§';
+    anchors.options.visible = 'always';
+    anchors.add('h1.wiki-title');
   </script>
 
   <!-- Main Script -->

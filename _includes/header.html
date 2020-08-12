@@ -1,9 +1,10 @@
 <header class="navigation fixed-top no-highlight">
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand font-tertiary h3" href="{{ base.url }}/">
+    <a class="navbar-brand font-tertiary h3" href="/" style="font-size: 2em;">
       {% if site.data.settings.logo %}
-        <img src="/assets/images/{{ site.data.settings.logo }}" alt="{{ site.data.settings.title }}" class="logo">
+        <img src="/assets/images/logo.png" alt="{{ site.data.settings.title }}" class="logo">
       {% endif %}
+      {% if page.layout == "wiki/default" %}teamhollow/{{ page.project_id }}{% endif %}
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
       aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">

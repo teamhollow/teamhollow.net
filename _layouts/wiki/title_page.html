@@ -1,0 +1,16 @@
+---
+layout: wiki/default
+---
+
+<div style="text-align: center;" class="no-highlight">
+    <img src="/assets/images/{{ page.project_id }}.png" class="wiki-root">
+    <h1 style="font-size: 3em;">{{ page.title }}</h1>
+    <h3 style="font-size: 1.8em;" subtitle>Wiki</h3>
+
+    <br>
+
+    {{ page.description }}
+</div>
+<div style="text-align: center;">
+    {{ content | markdownify }}
+</div>

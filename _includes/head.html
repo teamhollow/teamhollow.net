@@ -22,9 +22,11 @@
   <link rel="stylesheet" href="/assets/plugins/themify-icons/themify-icons.css">
 
   <!-- Main Stylesheet -->
-  <link href="/assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  {% if page.layout == "wiki/default" or "wiki/title_page" %}<!-- Page-Based Stylesheet -->
+  <link rel="stylesheet" href="/assets/css/wiki.css">{% endif %}
   
-  <!--Favicon-->
+  <!-- Favicon -->
   <link rel="shortcut icon" href="/assets/images/logo.png" type="image/x-icon">
   <link rel="icon" href="/assets/images/logo.png" type="image/x-icon">
 </head>

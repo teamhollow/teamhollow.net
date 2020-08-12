@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<section class="page-title bg-primary position-relative no-highlight"></section>
+
+<section class="section">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12">
+                {% if page.layout == "wiki/default" %}<h1 style="font-size: 3em;" class="wiki-title">{{ page.title }}</h1>{% endif %}
+
+                {{ content | markdownify }}
+
+                {% if page.layout == "wiki/default" %}<hr>
+                <h4>Issues</h4>
+                <p>Issues relating to '{{ page.title }}' are maintained on the bug tracker. Report issues <a href="https://github.com/teamhollow/{{ page.project_id }}/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+{{ page.title }}">there</a>.</p>{% endif %}
+            </div>
+        </div>
+    </div>
+</section>

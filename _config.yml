@@ -12,6 +12,9 @@ collections:
   pages:
     output: true
     permalink: /:path/
+  wiki:
+    output: true
+    permalink: /wiki/:path/
 
 sass:
   sass_dir: _sass
