@@ -1,6 +1,6 @@
-# Modding Legacy Website
+# teamhollow.net
 
-Team Hollow Website built with Jekyll 3.8.5
+The Team Hollow Website built with Jekyll 3.8.5
 
 ## Getting Started
 
@@ -41,7 +41,7 @@ This will build the website and generate everything in the `_site` directory.
 
 `bundle exec jekyll serve`
 
-This will start a web server and serve the website on `http://127.0.0.1:4000`
+This will start a web server and serve the website on `http://127.0.0.1:4000`/`http://localhost:4000`
 
 ## Contributing
 
