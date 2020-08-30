@@ -61,8 +61,11 @@
   right: -10px;
 }
 
-.layer-bg {
-  position: absolute;
-  bottom: 0;
-  left: 0;
+[center] {
+    text-align: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+section.hero-area {
+    padding: 50px 40px;
 }

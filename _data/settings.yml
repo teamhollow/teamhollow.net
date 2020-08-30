@@ -82,5 +82,5 @@ team:
 projects-title: Projects
 projects:
 - { name: Left Project, url: 'lefty', color: '#fdb157', value: '0%' }
-- { name: The Roofed Canyon, url: 'wiki/theroofedcanyon', color: '#229954', value: '40%' }
-- { name: Right Project, url: 'right', color: '#bdecf6', value: '0%' }
+- { name: The Roofed Canyon, url: 'wiki/theroofedcanyon', color: '#229954', value: '60%' }
+- { name: Soul Striders, url: '/wiki/soulstriders', color: '#bdecf6', value: '77%' }
