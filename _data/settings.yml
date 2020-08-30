@@ -54,10 +54,18 @@ team:
   - title : "Andante"
     image : "assets/images/team/andante.png"
     role : "Developer"
+
+  - title : "MotorGorilla1"
+    image : "assets/images/team/motorgorilla1.png"
+    role : "Admin"
     
   - title : "Axσladdy"
     image : "assets/images/team/axoladdy.png"
     role : "Idea Generator"
+
+  - title : "Frenderman"
+    image : "assets/images/team/frenderman.png"
+    role : "Graphic Designer"
 
   - title : "Ceres"
     image : "assets/images/team/ceres.png"
@@ -66,13 +74,13 @@ team:
   - title : "Duskitty"
     image : "assets/images/team/duskitty.png"
     role : "Developer"
-    
-  - title : "nskobelevs"
-    image : "assets/images/team/nskobelevs.png"
-    role : "Developer"
 
   - title : "NewHorizons"
     image : "assets/images/team/newhorizons.png"
+    role : "Developer"
+
+  - title : "bagu_chan"
+    image : "assets/images/team/bagu_chan.png"
     role : "Developer"
 
 
