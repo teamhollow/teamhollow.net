@@ -89,7 +89,7 @@ team:
 
 projects-title: Projects
 projects:
-- { name: Direbats, url: 'wiki/direbats', color: ' #34495e', value: '90%' }
+- { name: Direbats, url: 'wiki/direbats', color: '#34495e', value: '90%' }
 - { name: The Roofed Canyon, url: 'wiki/theroofedcanyon', color: '#229954', value: '80%' }
 - { name: Ready Your Shovels, url: 'wiki/readyyourshovels', color: '#6e2c00', value: '60%' }
 - { name: Soul Striders, url: '/wiki/soulstriders', color: '#bdecf6', value: '95%' }
