@@ -1,7 +1,7 @@
 {
-	"homepage": "https://direbats.teamhollow.net",
-	"promos": {
-		"1.16.3-latest": "0.1.0+1.16.3-forge",
-		"1.16.3-recommended": "0.1.0+1.16.3-forge"
-	}
+    "homepage": "https://direbats.teamhollow.net",
+    "promos": {
+        "1.16.3-latest": "0.1.0+1.16.3-forge",
+        "1.16.3-recommended": "0.1.0+1.16.3-forge"
+    }
 }
