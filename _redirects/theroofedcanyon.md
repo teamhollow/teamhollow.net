@@ -1,6 +1,6 @@
 ---
 layout: redirect
 
-new_url: /wiki/theroofedcanyon
-display: The Roofed Canyon Wiki
+new_url: https://theroofedcanyon.teamhollow.net
+display: Wiki → The Roofed Canyon
 ---
