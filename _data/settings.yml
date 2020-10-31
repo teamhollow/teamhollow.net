@@ -61,27 +61,35 @@ team:
     
   - title : "Axσladdy"
     image : "assets/images/team/axoladdy.png"
-    role : "Idea Generator"
+    role : "Idea Generator, Artist"
 
   - title : "Frenderman"
     image : "assets/images/team/frenderman.png"
-    role : "Graphic Designer"
+    role : "Artist"
 
   - title : "Ceres"
     image : "assets/images/team/ceres.png"
-    role : "Graphic Designer"
+    role : "Artist"
+
+  - title : "Ninni"
+    image : "assets/images/team/ninni.png"
+    role : "Artist"
 
   - title : "Duskitty"
     image : "assets/images/team/duskitty.png"
     role : "Developer"
 
-  - title : "NewHorizons"
-    image : "assets/images/team/newhorizons.png"
-    role : "Developer"
-
   - title : "bagu_chan"
     image : "assets/images/team/bagu_chan.png"
     role : "Developer"
+
+  - title : "breton aerouant"
+    image : "assets/images/team/breton_aerouant.png"
+    role : "Developer"
+
+  - title : "MysticKoko"
+    image : "assets/images/team/mystickoko.png"
+    role : "Artist"
 
 
 #-------------------------------
