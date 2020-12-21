@@ -98,7 +98,6 @@ team:
 projects-title: Projects
 projects:
 - { name: Direbats, id: 'direbats', color: '#34495e', value: '100%' }
-- { name: The Roofed Canyon, id: 'theroofedcanyon', color: '#229954', value: '80%' }
 - { name: Ready Your Shovels, id: 'readyyourshovels', color: '#6e2c00', value: '70%' }
-- { name: Soul Striders, id: 'soulstriders', color: '#bdecf6', value: '95%' }
 - { name: New Lands, id: 'newlands', color: '#d1a92a', value: '65%' }
+- { name: Soul Striders, id: 'soulstriders', color: '#bdecf6', value: '95%' }
