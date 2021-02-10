@@ -47,29 +47,25 @@ blurb: >-
 
 # Team Section
 team:
-  - title : "Vamacheron"
-    image : "assets/images/team/vamacheron.png"
-    role : "Director"
-  
   - title : "Andante"
     image : "assets/images/team/andante.png"
     role : "Developer"
 
+  - title : "Vamacheron"
+    image : "assets/images/team/vamacheron.png"
+    role : "Director"
+
   - title : "MotorGorilla1"
     image : "assets/images/team/motorgorilla1.png"
     role : "Admin"
-    
-  - title : "Axσladdy"
-    image : "assets/images/team/axoladdy.png"
-    role : "Idea Generator, Artist"
 
   - title : "Frenderman"
     image : "assets/images/team/frenderman.png"
     role : "Artist"
 
-  - title : "Ceres"
-    image : "assets/images/team/ceres.png"
-    role : "Artist"
+  - title : "Esuoh"
+    image : "assets/images/team/esuoh.png"
+    role : "Sound Designer"
 
   - title : "Ninni"
     image : "assets/images/team/ninni.png"
@@ -79,18 +75,9 @@ team:
     image : "assets/images/team/duskitty.png"
     role : "Developer"
 
-  - title : "bagu_chan"
-    image : "assets/images/team/bagu_chan.png"
-    role : "Developer"
-
-  - title : "breton aerouant"
-    image : "assets/images/team/breton_aerouant.png"
-    role : "Developer"
-
   - title : "MysticKoko"
     image : "assets/images/team/mystickoko.png"
     role : "Artist"
-
 
 #-------------------------------
 # Projects Section
