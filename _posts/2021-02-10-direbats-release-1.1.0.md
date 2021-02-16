@@ -43,7 +43,8 @@ What? The blocks in the background? Bro what are you talking about lmao
 - [`#6`](https://github.com/teamhollow/direbats/issues/6) The direbat fang arrow entity has no entity model
 - [`#8`](https://github.com/teamhollow/direbats/issues/8) Direbat-dropped items have no pickup delay
 
-### Translations
-- [BardinTheDwarf](https://github.com/teamhollow/direbats/pull/9) `Russian`
-- [Mikeliro](https://github.com/teamhollow/direbats/pull/10) `Brazilian Portuguese`
-- [luciobortoletto](https://github.com/teamhollow/direbats/pull/11) `Italian`
+#### Translations
+- **[BardinTheDwarf](https://github.com/teamhollow/direbats/pull/9)** `Russian`
+- **[Mikeliro](https://github.com/teamhollow/direbats/pull/10)** `Brazilian Portuguese`
+- **[luciobortoletto](https://github.com/teamhollow/direbats/pull/11)** `Italian`
+- **[Shadew](/#the-team)** `Dutch`
