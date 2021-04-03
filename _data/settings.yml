@@ -55,15 +55,11 @@ team:
     image : "assets/images/team/vamacheron.png"
     role : "Director"
 
-  - title : "MotorGorilla1"
-    image : "assets/images/team/motorgorilla1.png"
-    role : "Admin"
+  - title : "Shadew"
+    image : "assets/images/team/shadew.png"
+    role : "Developer"
 
-  - title : "Frenderman"
-    image : "assets/images/team/frenderman.png"
-    role : "Artist"
-
-  - title : "Esuoh"
+  - title : "Mr. Esuoh"
     image : "assets/images/team/esuoh.png"
     role : "Sound Designer"
 
@@ -71,12 +67,8 @@ team:
     image : "assets/images/team/ninni.png"
     role : "Artist"
 
-  - title : "Duskitty"
-    image : "assets/images/team/duskitty.png"
-    role : "Developer"
-
-  - title : "MysticKoko"
-    image : "assets/images/team/mystickoko.png"
+  - title : "Frenderman"
+    image : "assets/images/team/frenderman.png"
     role : "Artist"
 
 #-------------------------------
