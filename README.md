@@ -25,7 +25,7 @@ You need to install [Ruby](https://rubyinstaller.org/). Make sure you get at lea
 #### 4) Set up the workspace
 
 Navigate to the root of the directory and type: `bundle install`  
-This should install all the package needed for development.
+This should install all the packages needed for development.
 
 **Do not commit the modified Gemfile after this finishes** ***unless a gem needs to be updated!*** **Lachney will usually take care of that if that is the case.**
 
